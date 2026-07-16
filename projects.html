@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Anuj Rasaili</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .project-detail {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-detail h2 {
+            color: #2d3436;
+            margin-bottom: 1rem;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .project-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0984e3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-link:hover {
+            background-color: #0770c9;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Anuj Rasaili</div>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="project-detail">
+        <h2>Multi-Timezone Digital Clock</h2>
+        <p>A real-time digital clock application that displays the current time across 12 major world timezones.</p>
+        <h3>Features:</h3>
+        <ul>
+            <li>Real-time clock updates every second</li>
+            <li>Displays 12 major timezones (New York, London, Paris, Dubai, India, Singapore, Tokyo, Sydney, Los Angeles, Toronto, São Paulo, Hong Kong)</li>
+            <li>Shows local timezone information</li>
+            <li>Responsive design for all devices</li>
+            <li>Modern gradient styling with smooth animations</li>
+        </ul>
+        <h3>Technologies Used:</h3>
+        <div class="tech-stack">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Intl API</span>
+        </div>
+        <div class="project-links">
+            <a href="clock.html" class="project-link">View Clock</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Anuj Rasaili. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
